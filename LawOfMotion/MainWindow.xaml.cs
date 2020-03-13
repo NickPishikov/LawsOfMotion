@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace LawOfMotion
+namespace LawsOfMotion
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
@@ -23,6 +23,7 @@ namespace LawOfMotion
         public MainWindow()
         {
             InitializeComponent();
+            
         }
     }
 }

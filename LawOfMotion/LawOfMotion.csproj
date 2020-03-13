@@ -63,9 +63,11 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ConstLaw.cs" />
     <Compile Include="LawOfCos.cs" />
     <Compile Include="LawOfSin.cs" />
     <Compile Include="LawsOfMotion.cs" />
+    <Compile Include="LinearLaw.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
