@@ -8,19 +8,22 @@ namespace LawsOfMotion
 {
     class ConstLaw : LawOfMotion
     {
-        public override void CalcAcceleration(double time, double timer, double spath)
+        public override double CalcAcceleration(double time, double timer, double spath)
         {
             Acceleration = 0;
+            return Acceleration;
         }
 
-        public override void CalcVelocity(double time, double timer, double spath)
+        public override double CalcVelocity(double time, double timer, double spath)
         {
             Velocity = spath / time;
+            return Velocity;
         }
 
-        public override void CalcWay(double time, double timer, double spath)
+        public override double CalcWay(double time, double timer, double spath)
         {
             Spath = spath * (timer / time);
+            return Spath;
         }
     }
 }

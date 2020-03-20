@@ -3,10 +3,37 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:oxy="http://oxyplot.org/wpf"
         xmlns:local="clr-namespace:LawsOfMotion"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid x:Name="grid1">
+        <oxy:Plot Title="Законы движений" x:Name="graf"    >
+           <oxy:LineSeries Title="Cos" 
+                            ItemsSource="{Binding CosPoint}"
+                            Color="Orange" />
+            <oxy:LineSeries Title="Sin"
+                            ItemsSource="{Binding SinPoint}"
+                            Color="Green" />
+            <oxy:LineSeries Title="Const"
+                            ItemsSource="{Binding ConstPoint}"
+                            Color="Red" />
+            <oxy:LineSeries Title="Linear"
+                            ItemsSource="{Binding LinearPoint}"
+                            Color="Blue" />
+            <oxy:Plot.Axes>
+                <oxy:LinearAxis Title="X"
+                       Maximum="630"
+                               
+                            MinorGridlineStyle="Dash"
+                            Position="Bottom" />
+                <oxy:LinearAxis Title="Y"
+                                 Maximum="300"
+                               
+                               MinorGridlineStyle="Dash"
+                          
+                            Position="Left" />
+            </oxy:Plot.Axes>
+        </oxy:Plot>
     </Grid>
 </Window>

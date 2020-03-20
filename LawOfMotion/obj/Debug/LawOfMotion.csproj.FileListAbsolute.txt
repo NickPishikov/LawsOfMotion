@@ -12,3 +12,8 @@ C:\Users\Kolichka\source\repos\LawOfMotion\LawOfMotion\obj\Debug\LawsOfMotion.Pr
 C:\Users\Kolichka\source\repos\LawOfMotion\LawOfMotion\obj\Debug\LawOfMotion.csproj.GenerateResource.cache
 C:\Users\Kolichka\source\repos\LawOfMotion\LawOfMotion\obj\Debug\LawsOfMotion.exe
 C:\Users\Kolichka\source\repos\LawOfMotion\LawOfMotion\obj\Debug\LawsOfMotion.pdb
+C:\Users\Kolichka\source\repos\LawOfMotion\LawOfMotion\bin\Debug\OxyPlot.dll
+C:\Users\Kolichka\source\repos\LawOfMotion\LawOfMotion\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\Kolichka\source\repos\LawOfMotion\LawOfMotion\bin\Debug\OxyPlot.xml
+C:\Users\Kolichka\source\repos\LawOfMotion\LawOfMotion\bin\Debug\OxyPlot.Wpf.xml
+C:\Users\Kolichka\source\repos\LawOfMotion\LawOfMotion\obj\Debug\LawOfMotion.csproj.CopyComplete
